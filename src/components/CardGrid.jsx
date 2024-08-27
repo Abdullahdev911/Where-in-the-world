@@ -35,7 +35,7 @@ function handleDropDown(e){
 }
 
 function handleInput(e){
-  setInputText(e.target.value)
+  setInputText(e.target.value.toLowerCase())
   
 
   if(debounceTimeout.current){
